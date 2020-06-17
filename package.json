@@ -1,0 +1,12 @@
+{
+  "name": "com.jammik.unity-localization",
+  "displayName": "Unity localization manager",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JammiK/UnityLocalization.git"
+  },
+  "author": "jammik <jammik94@gmail.com> (https://github.com/JammiK)",
+  "editorOnly": false
+}
