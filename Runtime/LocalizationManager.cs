@@ -1,8 +1,11 @@
-using System;
 using System.Collections.Generic;
 using System.Data;
 using Jammik.Localization.Interfaces;
 using UnityEngine;
+using UnityEngine.Scripting;
+
+
+[assembly: Preserve]
 
 namespace Jammik.Localization
 {
