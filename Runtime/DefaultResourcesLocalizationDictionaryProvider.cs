@@ -4,9 +4,11 @@ using System.Data;
 using System.Linq;
 using Jammik.Localization.Interfaces;
 using UnityEngine;
+using UnityEngine.Scripting;
 
 namespace Jammik.Localization
 {
+    [Preserve]
     public class DefaultResourcesLocalizationDictionaryProvider : ILocalizationDictionaryProvider
     {
         readonly ILanguageProvider _languageProvider;
@@ -16,6 +18,7 @@ namespace Jammik.Localization
         
         string _directoryPath;
 
+        [Preserve]
         public DefaultResourcesLocalizationDictionaryProvider(IDefaultResourceDictionarySettings settings,
             ILocalizationDictionaryParser localizationDictionaryParser,
             ILanguageProvider languageProvider = null)

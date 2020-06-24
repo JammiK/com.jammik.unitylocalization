@@ -9,6 +9,7 @@ using UnityEngine.Scripting;
 
 namespace Jammik.Localization
 {
+    [Preserve]
     public class LocalizationManager : ILocalizationManager
     {
         const string PackagePrefix = "[Localization Manager]:";
@@ -19,6 +20,7 @@ namespace Jammik.Localization
 
         IDictionary<string, string> _dictionary;
         
+        [Preserve]
         public LocalizationManager(ILocalizationManagerSettings settings,
             ILocalizationDictionaryProvider localizationDictionaryProvider,
             ILanguageProvider languageProvider,
